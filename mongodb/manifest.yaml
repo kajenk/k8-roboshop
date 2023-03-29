@@ -1,3 +1,4 @@
+---
 apiVersion: v1
 kind: Pod
 metadata:
@@ -24,4 +25,5 @@ spec:
   ports:
     - protocol: TCP
       port: 27017
-      targetPort: 27017  
+      targetPort: 27017
+
